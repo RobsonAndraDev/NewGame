@@ -2,4 +2,4 @@
 Repository destined to game creation for study
 
 ## Testing waffle.io
-closes #2
+closes #3
