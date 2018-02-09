@@ -1,21 +1,15 @@
 fileFormatVersion: 2
-guid: eab1ab7998307cf4aa5cf8eea347ffc4
-timeCreated: 1517877844
+guid: 0acd219056e26934e97251403bb91cc8
+timeCreated: 1517878384
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: PinkGhost_0
-    21300002: PinkGhost_1
-    21300004: PinkGhost_2
-    21300006: PinkGhost_3
-    21300008: PinkGhost_4
-    21300010: PinkGhost_5
-    21300012: PinkGhost_6
-    21300014: PinkGhost_7
-    21300016: PinkGhost_8
-    21300018: PinkGhost_9
-    21300020: PinkGhost_10
-    21300022: PinkGhost_11
+    21300000: AlertGhost_0
+    21300002: AlertGhost_1
+    21300004: AlertGhost_2
+    21300006: AlertGhost_3
+    21300008: AlertGhost_4
+    21300010: AlertGhost_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,7 +49,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 1, y: 0, z: 33, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -65,88 +59,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PinkGhost_0
+      name: AlertGhost_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: PinkGhost_1
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 0
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: PinkGhost_2
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 0
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: PinkGhost_3
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 0
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: PinkGhost_4
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 0
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: PinkGhost_5
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 0
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: PinkGhost_6
-      rect:
-        serializedVersion: 2
-        x: 108
         y: 0
         width: 16
         height: 20
@@ -156,10 +72,23 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PinkGhost_7
+      name: AlertGhost_1
       rect:
         serializedVersion: 2
-        x: 125
+        x: 17
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AlertGhost_2
+      rect:
+        serializedVersion: 2
+        x: 34
         y: 0
         width: 17
         height: 20
@@ -169,12 +98,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PinkGhost_8
+      name: AlertGhost_3
       rect:
         serializedVersion: 2
-        x: 142
+        x: 52
         y: 0
-        width: 17
+        width: 16
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -182,12 +111,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PinkGhost_9
+      name: AlertGhost_4
       rect:
         serializedVersion: 2
-        x: 159
+        x: 69
         y: 0
-        width: 18
+        width: 16
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -195,25 +124,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PinkGhost_10
+      name: AlertGhost_5
       rect:
         serializedVersion: 2
-        x: 177
+        x: 86
         y: 0
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: PinkGhost_11
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 0
-        width: 18
+        width: 16
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
