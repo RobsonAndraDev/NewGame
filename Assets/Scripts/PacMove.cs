@@ -3,7 +3,6 @@ using System.Collections;
 
 public class PacMove : MonoBehaviour {
     Animator animator;
-    Vector3 side;
     float x, y;
     // Use this for initialization
     void Start () {
