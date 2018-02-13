@@ -46,7 +46,7 @@ public class Ghost : MonoBehaviour {
 	}
 
 	void alertMode(GameObject ghost) {
-		Debug.Log("Called: " + alertTime);
+		// Debug.Log("Called: " + alertTime);
 		if(ghost != null) {
 			ghost.GetComponent<Animator>().SetBool("alert", alertTime);
 		}

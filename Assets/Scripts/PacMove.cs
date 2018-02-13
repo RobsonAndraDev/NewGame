@@ -50,7 +50,16 @@ public class PacMove : MonoBehaviour {
             }
             x = 0;
         }
-        transform.Translate(x, y, 0, Space.World);
+        Debug.Log("Position x: " + transform.position.x);
+        if(transform.position.x <= -5.81f && (transform.position.y <= 0.50f && transform.position.y >= 0.05)) {
+            // transport pacman
+            transform.Translate(11.72f, y, 0, Space.World); // 
+        } else if(transform.position.x >= 5.91f && (transform.position.y <= 0.50f && transform.position.y >= 0.05)) {
+            // transport pacman
+            transform.Translate(-11.72f, y, 0, Space.World);
+        } else {
+            transform.Translate(x, y, 0, Space.World);
+        }
         transform.Rotate(0, 0, 0, Space.World);
     }
 
