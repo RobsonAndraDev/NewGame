@@ -24,6 +24,9 @@ public class PointBall: MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D collider) {
-		Debug.Log("Trigger GameObject Hit: " + collider.gameObject.name);
+		if (collider.gameObject.name == pacman.name) {
+			// Debug.Log("Pacman gets the ball");
+			Destroy(gameObject);
+		}
 	}
 }
