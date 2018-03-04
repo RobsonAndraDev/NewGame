@@ -17,16 +17,32 @@ public class PointBall: MonoBehaviour {
 	}
 
 	void createBalls() {
-		Instantiate(gameObject, new Vector3(5.0F, 0.3F, 0F), Quaternion.identity);
-		Instantiate(gameObject, new Vector3(-5.52F, -4.36F, 0F), Quaternion.identity);
-		Instantiate(gameObject, new Vector3(5.55F, -4.36F, 0F), Quaternion.identity);
+		float ballScaleX = transform.localScale.x,
+					ballScaleY = transform.localScale.y,
+					ballSize = 0.6F,
+					x = transform.position.x,
+					y = transform.position.y;
+
+		for (var col = 0; col < 16; col++) {
+			//column implementation
+			for (int row = 0; row < 20; row++)
+			{
+				Instantiate(gameObject, new Vector3(x, y, 0F), Quaternion.identity);
+				x += ballSize;
+			}
+			y -= ballSize;
+			x = transform.position.x;
+		}
 		PointBall.started = false;
 	}
 
 	void OnTriggerEnter2D(Collider2D collider) {
 		if (collider.gameObject.name == pacman.name) {
-			// Debug.Log("Pacman gets the ball");
 			Destroy(gameObject);
 		}
 	}
 }
+
+/*
+	col 0 row[1,2,3,]
+*/
